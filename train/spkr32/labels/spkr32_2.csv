@@ -1,0 +1,11 @@
+spkr32_2_0 AX AH - 0.88 1.03
+spkr32_2_1 Kh Kh + 1.03 1.11
+spkr32_2_2 AH AH + 1.11 1.21
+spkr32_2_3 P P + 1.21 1.41
+spkr32_2_4 AX O - 1.41 1.45
+spkr32_2_5 V F - 1.45 1.56
+spkr32_2_6 HH HH + 1.56 1.69
+spkr32_2_7 AO AO + 1.69 1.78
+spkr32_2_8 Th Th + 1.78 1.94
+spkr32_2_9 Th Th + 1.94 2.12
+spkr32_2_10 IY IY + 2.12 2.36

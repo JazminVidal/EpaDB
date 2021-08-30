@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.136235827664399
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "words"
+        xmin = 0.0
+        xmax = 2.136235827664399
+        intervals: size = 8
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.2499824560984201
+                text = ""
+            intervals [2]:
+                xmin = 0.2499824560984201
+                xmax = 0.34
+                text = "i"
+            intervals [3]:
+                xmin = 0.34
+                xmax = 0.61
+                text = "had"
+            intervals [4]:
+                xmin = 0.61
+                xmax = 0.67
+                text = "a"
+            intervals [5]:
+                xmin = 0.67
+                xmax = 1.24
+                text = "headache"
+            intervals [6]:
+                xmin = 1.24
+                xmax = 1.6
+                text = "last"
+            intervals [7]:
+                xmin = 1.6
+                xmax = 2.0243432869753804
+                text = "year"
+            intervals [8]:
+                xmin = 2.0243432869753804
+                xmax = 2.136235827664399
+                text = ""
+    item [1]:
+        class = "IntervalTier"
+        name = "annotation"
+        xmin = 0.0
+        xmax = 2.136235827664399
+        intervals: size = 19
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.2518740987752612
+                text = "sil"
+            intervals [2]:
+                xmin = 0.2518740987752612
+                xmax = 0.34
+                text = "AY"
+            intervals [3]:
+                xmin = 0.34
+                xmax = 0.46184643590462426
+                text = "HH"
+            intervals [4]:
+                xmin = 0.46184643590462426
+                xmax = 0.57
+                text = "AE"
+            intervals [5]:
+                xmin = 0.57
+                xmax = 0.61
+                text = "DX"
+            intervals [6]:
+                xmin = 0.61
+                xmax = 0.67
+                text = "EH"
+            intervals [7]:
+                xmin = 0.67
+                xmax = 0.79
+                text = "HH"
+            intervals [8]:
+                xmin = 0.79
+                xmax = 0.87
+                text = "EH"
+            intervals [9]:
+                xmin = 0.87
+                xmax = 0.92
+                text = "DH"
+            intervals [10]:
+                xmin = 0.92
+                xmax = 1.11
+                text = "EY"
+            intervals [11]:
+                xmin = 1.11
+                xmax = 1.24
+                text = "K"
+            intervals [12]:
+                xmin = 1.24
+                xmax = 1.32
+                text = "L"
+            intervals [13]:
+                xmin = 1.32
+                xmax = 1.4
+                text = "A"
+            intervals [14]:
+                xmin = 1.4
+                xmax = 1.468200339984094
+                text = "S"
+            intervals [15]:
+                xmin = 1.468200339984094
+                xmax = 1.6
+                text = "T"
+            intervals [16]:
+                xmin = 1.6
+                xmax = 1.678172677113457
+                text = "Y"
+            intervals [17]:
+                xmin = 1.678172677113457
+                xmax = 1.7784297389860357
+                text = "IH"
+            intervals [18]:
+                xmin = 1.7784297389860357
+                xmax = 2.0243432869753804
+                text = "ER"
+            intervals [19]:
+                xmin = 2.0243432869753804
+                xmax = 2.136235827664399
+                text = ""
+    item [1]:
+        class = "IntervalTier"
+        name = "score"
+        xmin = 0.0
+        xmax = 2.136235827664399
+        intervals: size = 1
+            intervals [1]:
+                xmin = 0.0
+                xmax = 2.136235827664399
+                text = "3/5"

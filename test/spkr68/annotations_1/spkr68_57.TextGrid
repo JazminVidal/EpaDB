@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.1573333333333333
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "words"
+        xmin = 0.0
+        xmax = 3.1573333333333333
+        intervals: size = 6
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.83
+                text = ""
+            intervals [2]:
+                xmin = 0.83
+                xmax = 1.18
+                text = "don't"
+            intervals [3]:
+                xmin = 1.18
+                xmax = 1.66
+                text = "forget"
+            intervals [4]:
+                xmin = 1.66
+                xmax = 1.81
+                text = "your"
+            intervals [5]:
+                xmin = 1.81
+                xmax = 2.501692715216533
+                text = "shovel"
+            intervals [6]:
+                xmin = 2.501692715216533
+                xmax = 3.1573333333333333
+                text = ""
+    item [1]:
+        class = "IntervalTier"
+        name = "annotation"
+        xmin = 0.0
+        xmax = 3.1573333333333333
+        intervals: size = 21
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.83
+                text = "sil"
+            intervals [2]:
+                xmin = 0.83
+                xmax = 0.9814944066450397
+                text = "D"
+            intervals [3]:
+                xmin = 0.9814944066450397
+                xmax = 1.0798843442229737
+                text = "AO"
+            intervals [4]:
+                xmin = 1.0798843442229737
+                xmax = 1.1792417516655977
+                text = "N"
+            intervals [5]:
+                xmin = 1.1792417516655977
+                xmax = 1.18
+                text = "0"
+            intervals [6]:
+                xmin = 1.18
+                xmax = 1.28
+                text = "F"
+            intervals [7]:
+                xmin = 1.28
+                xmax = 1.4068655214419972
+                text = "AO"
+            intervals [8]:
+                xmin = 1.4068655214419972
+                xmax = 1.41
+                text = "0"
+            intervals [9]:
+                xmin = 1.41
+                xmax = 1.49
+                text = "G"
+            intervals [10]:
+                xmin = 1.49
+                xmax = 1.59
+                text = "EH"
+            intervals [11]:
+                xmin = 1.59
+                xmax = 1.66
+                text = "T"
+            intervals [12]:
+                xmin = 1.66
+                xmax = 1.72
+                text = "Y"
+            intervals [13]:
+                xmin = 1.72
+                xmax = 1.76
+                text = "AO"
+            intervals [14]:
+                xmin = 1.76
+                xmax = 1.81
+                text = "R"
+            intervals [15]:
+                xmin = 1.81
+                xmax = 2.08
+                text = "SH"
+            intervals [16]:
+                xmin = 2.08
+                xmax = 2.1575329139844466
+                text = "AH"
+            intervals [17]:
+                xmin = 2.1575329139844466
+                xmax = 2.299685875362917
+                text = "V"
+            intervals [18]:
+                xmin = 2.299685875362917
+                xmax = 2.3595397538380625
+                text = "AX"
+            intervals [19]:
+                xmin = 2.3595397538380625
+                xmax = 2.504186626819664
+                text = "L"
+            intervals [20]:
+                xmin = 2.504186626819664
+                xmax = 3.14
+                text = "sp"
+            intervals [21]:
+                xmin = 3.14
+                xmax = 3.1573333333333333
+                text = ""
+    item [1]:
+        class = "IntervalTier"
+        name = "score"
+        xmin = 0.0
+        xmax = 3.1573333333333333
+        intervals: size = 1
+            intervals [1]:
+                xmin = 0.0
+                xmax = 3.1573333333333333
+                text = "3/5"
