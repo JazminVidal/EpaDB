@@ -1,7 +1,7 @@
 # Epa-DB: 
 
-This repository contains EpaDB, a database for development of pronunciation assessment systems. available for research purposes
-
+This repository contains EpaDB, a database for development of pronunciation assessment systems. The database is an effort of the Speech Lab[link](http://habla.dc.uba.ar/) at the Laboratorio de Inteligencia Artificial Aplicada from the Universidad de Buenos Aires and was partially funded by Google by a Google Latin America Reseach Award in 2018.
+It is available for free for research purposes. 
 
 
 ## Table of Contents
@@ -12,14 +12,11 @@ This repository contains EpaDB, a database for development of pronunciation asse
 
 ## About EpaDB
 
-EpaDB is a speech database intended for research in pronunciation scoring. The corpus includes audios from 50 Spanish speakers (25 males and 25 female) from Argentina reading phrases in English. Each speaker recorded 64 short phrases containing sounds hard to pronounce for this population. 
+EpaDB is a speech database intended for research in pronunciation scoring. The corpus includes audios from 50 Spanish speakers (25 males and 25 female) from Argentina reading phrases in English. Each speaker recorded 64 short phrases containing sounds hard to pronounce for this population. Recordings were done in the personal computers of the participants to envison the use case scenario of a pronunciation scoring systems. 
 
-In addition to the recordings, we manually annotated each phrase at phonetic level by two expert annotators from Argentina. One of the annotations is complete, the other covers only four phrases per speaker. We intend to complete the process and also add a third English native annotator in the course of the year.
+In addition to the recordings, each phrase is manually annotated at phonetic level by two expert annotators from Argentina. One of the annotations is complete, the other covers only four phrases per speaker. We intend to complete the process and also add a third English native annotator in the course of the year.
 
 For more information on the annotations, please refer to the paper in this folder.
-
-The database is an effort of the Speech Lab at the Laboratorio de Inteligencia Artificial Aplicada from the Universidad de Buenos Aires and was partially funded by Google by a Google Latin America Reseach Award in 2018.
-
 
 ## Overview
 
