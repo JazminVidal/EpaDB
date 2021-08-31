@@ -1,6 +1,6 @@
 # Epa-DB: 
 
-This repository contains EpaDB, a database for development of pronunciation assessment systems. The database is an effort of the Speech Lab[http://habla.dc.uba.ar/] at the Laboratorio de Inteligencia Artificial Aplicada from the Universidad de Buenos Aires and was partially funded by Google by a Google Latin America Reseach Award in 2018.
+This repository contains EpaDB, a database for development of pronunciation assessment systems. The database is an effort of the [Speech Lab](http://habla.dc.uba.ar/) at the Laboratorio de Inteligencia Artificial Aplicada from the Universidad de Buenos Aires and was partially funded by Google by a Google Latin America Reseach Award in 2018.
 It is available for free for research purposes. 
 
 
