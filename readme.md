@@ -27,32 +27,41 @@ You will encounter the following folders organized by speaker:
 - transcriptions: contains the prompts read by the speaker in .lab format.
 - annotations_1: contains the set of complete manual annotations in TextGrid format.
 - annotations_2: contains a subset of manual annotations in TextGrid format by a second annotator, in case it exists. 
+- labels: it is an optional folder that contains the label per phone of each phrase computed by comparing the manual annotation with a reference transcription.
 
 Additional files you will encounter in the main folder are: 
 
 - reference_transcriptions: the file with all the possible reference transcriptions we considered.
-- 
+- scripts to compute the labels
 
 ## Note on the TextGrid files
 
 Each TextGrid file contains 4 tiers:
 
 - Words: manually corrected word level alignments.
-- Transcription: manually corrected phoneme level alignments containing one of the possible correct transcriptions.
 - Annotation: phone level annotations by the expert annotators.
 - Score: an overall score provided by the annotator in a scale from 1 to 5.
 
 ## Note on the recordings
 
-Note that some of the recordings may be missing due to low quality or recording problems.
+Note that some of the recordings may be missing due to low quality or recording problems and that recordings may be noisy. Specially spkr15. 
 Manual annotation was performed at phone level using ARPA-bet and an ARPA-bet like extension to account for allophonic variations and Spanish sounds. For more informations refer to the paper in this folder.
-Speakers 89 and 18 do not contain the set of second annotations.
+
+## License
+
+The database is released under the CC BY-NC 4.0 license, a summary of the license can be found [here](https://creativecommons.org/licenses/by-nc/4.0/), and the full license can be found [here](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For any usage that is not covered by the CC BY-NC 4.0 license, please contact Jazmín Vidal (jvidal@dc.uba.ar).
 
 
+## References
 If you want to replicate our results in pronunciation scoring using Kaldi-GOP or find a code to compute labels from the manual annotations you can run the code provided in our github repository: https://github.com/JazminVidal/gop-dnn-epadb
-
 
 If you are interested in using EpaDB in your publications, please cite the following paper:
 
-@article{vidal2019epadb,  
-title={EpaDB: a database for development of pronunciation assessment systems},  author={Vidal, Jazmin and Ferrer, Luciana and Brambilla, Leonardo},  journal={Proc. Interspeech 2019},  pages={589--593},  year={2019}}
+@article{
+vidal2019epadb,  
+title={EpaDB: a database for development of pronunciation assessment systems},  
+author={Vidal, Jazmin and Ferrer, Luciana and Brambilla, Leonardo},  
+journal={Proc. Interspeech 2019}, 
+pages={589--593},  
+year={2019}
+}
