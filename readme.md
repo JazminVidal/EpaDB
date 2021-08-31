@@ -7,7 +7,8 @@ It is available for free for research purposes.
 ## Table of Contents
 * [About EpaDB](#About-EpaDB)
 * [Overview](#overview)
-* [How to install](#how-to-install)
+* [Note on the TextGrid files](#Note-on-the-TextGrid-files)
+* [Note on the recordings](#Note-on-the-recordings)
 * [References](#references)
 
 ## About EpaDB
@@ -17,23 +18,22 @@ EpaDB is a speech database intended for research in pronunciation scoring. The c
 In addition to the recordings, each phrase is manually annotated at phonetic level by two expert annotators from Argentina. One of the annotations is complete, the other covers only four phrases per speaker. We intend to complete the process and also add a third English native annotator in the course of the year.
 
 For more information on the annotations, please refer to the paper. 
+
 ## Overview
 
 You will encounter the following folders organized by speaker:
 
-- waveforms: contains all the speech recordings.
-- transcriptions: contains the prompts in .lab format.
+- waveforms: contains all the speech recordings of the speaker.
+- transcriptions: contains the prompts read by the speaker in .lab format.
 - annotations_1: contains the set of complete manual annotations in TextGrid format.
 - annotations_2: contains a subset of manual annotations in TextGrid format by a second annotator, in case it exists. 
 
+Additional files you will encounter in the main folder are: 
+
 - reference_transcriptions: the file with all the possible reference transcriptions we considered.
+- 
 
-
-Note that some of the recordings may be missing due to low quality or recording problems.
-Manual annotation was performed at phone level using ARPA-bet and an ARPA-bet like extension to account for allophonic variations and Spanish sounds. For more informations refer to the paper in this folder.
-Speakers 89 and 18 do not contain the set of second annotations.
-
-Note on the TextGrid files
+## Note on the TextGrid files
 
 Each TextGrid file contains 4 tiers:
 
@@ -41,6 +41,12 @@ Each TextGrid file contains 4 tiers:
 - Transcription: manually corrected phoneme level alignments containing one of the possible correct transcriptions.
 - Annotation: phone level annotations by the expert annotators.
 - Score: an overall score provided by the annotator in a scale from 1 to 5.
+
+## Note on the recordings
+
+Note that some of the recordings may be missing due to low quality or recording problems.
+Manual annotation was performed at phone level using ARPA-bet and an ARPA-bet like extension to account for allophonic variations and Spanish sounds. For more informations refer to the paper in this folder.
+Speakers 89 and 18 do not contain the set of second annotations.
 
 
 If you want to replicate our results in pronunciation scoring using Kaldi-GOP or find a code to compute labels from the manual annotations you can run the code provided in our github repository: https://github.com/JazminVidal/gop-dnn-epadb
