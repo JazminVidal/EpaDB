@@ -16,8 +16,7 @@ EpaDB is a speech database intended for research in pronunciation scoring. The c
 
 In addition to the recordings, each phrase is manually annotated at phonetic level by two expert annotators from Argentina. One of the annotations is complete, the other covers only four phrases per speaker. We intend to complete the process and also add a third English native annotator in the course of the year.
 
-For more information on the annotations, please refer to the paper in this folder.
-
+For more information on the annotations, please refer to the paper. 
 ## Overview
 
 You will encounter the following folders organized by speaker:
