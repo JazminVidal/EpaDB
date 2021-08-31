@@ -1,6 +1,18 @@
-About EpaDB
+# Epa-DB: 
 
-EpaDB is a speech database intended for research in pronunciation scoring. The corpus includes audios from 50 Spanish speakers (25 males and 25 female) from Argentina reading phrases in English. Each speaker recorded 64 short phrases containing sounds hard to pronounce for this population adding up to a total of 20 hours of speech.
+This repository contains EpaDB, a database for development of pronunciation assessment systems. available for research purposes
+
+
+
+## Table of Contents
+* [About EpaDB](#About-EpaDB)
+* [Overview](#overview)
+* [How to install](#how-to-install)
+* [References](#references)
+
+## About EpaDB
+
+EpaDB is a speech database intended for research in pronunciation scoring. The corpus includes audios from 50 Spanish speakers (25 males and 25 female) from Argentina reading phrases in English. Each speaker recorded 64 short phrases containing sounds hard to pronounce for this population. 
 
 In addition to the recordings, we manually annotated each phrase at phonetic level by two expert annotators from Argentina. One of the annotations is complete, the other covers only four phrases per speaker. We intend to complete the process and also add a third English native annotator in the course of the year.
 
@@ -9,14 +21,15 @@ For more information on the annotations, please refer to the paper in this folde
 The database is an effort of the Speech Lab at the Laboratorio de Inteligencia Artificial Aplicada from the Universidad de Buenos Aires and was partially funded by Google by a Google Latin America Reseach Award in 2018.
 
 
-Overview
+## Overview
 
-In the downloaded zip file you will encounter the following folders organized by speaker:
+You will encounter the following folders organized by speaker:
 
 - waveforms: contains all the speech recordings.
 - transcriptions: contains the prompts in .lab format.
 - annotations_1: contains the set of complete manual annotations in TextGrid format.
-- annotations_2: contains a subset of manual annotations in TextGrid format by a second annotator.
+- annotations_2: contains a subset of manual annotations in TextGrid format by a second annotator, in case it exists. 
+
 - reference_transcriptions: the file with all the possible reference transcriptions we considered.
 
 
@@ -38,4 +51,6 @@ If you want to replicate our results in pronunciation scoring using Kaldi-GOP or
 
 
 If you are interested in using EpaDB in your publications, please cite the following paper:
-@article{vidal2019epadb,  title={EpaDB: a database for development of pronunciation assessment systems},  author={Vidal, Jazmin and Ferrer, Luciana and Brambilla, Leonardo},  journal={Proc. Interspeech 2019},  pages={589--593},  year={2019}}
+
+@article{vidal2019epadb,  
+title={EpaDB: a database for development of pronunciation assessment systems},  author={Vidal, Jazmin and Ferrer, Luciana and Brambilla, Leonardo},  journal={Proc. Interspeech 2019},  pages={589--593},  year={2019}}
