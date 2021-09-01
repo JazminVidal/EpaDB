@@ -38,9 +38,9 @@ Additional files you will encounter in the main folder are:
 
 Each TextGrid file contains 4 tiers:
 
-- Words: manually corrected word level alignments.
-- Annotation: phone level annotations by the expert annotators.
-- Score: an overall score provided by the annotator in a scale from 1 to 5.
+- words: manually corrected word level alignments.
+- annotation: phone level annotations by the expert annotators.
+- score: an overall score provided by the annotator in a scale from 1 to 5.
 
 ## Note on the recordings
 
