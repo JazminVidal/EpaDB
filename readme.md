@@ -21,7 +21,7 @@ For more information on the annotations, please refer to the paper.
 
 ## Overview
 
-You will encounter the following folders organized by speaker:
+You will encounter the following folders organized by speaker in the test and train folders:
 
 - waveforms: contains all the speech recordings of the speaker.
 - transcriptions: contains the prompts read by the speaker in .lab format.
@@ -33,6 +33,7 @@ Additional files you will encounter in the main folder are:
 
 - reference_transcriptions: the file with all the possible reference transcriptions we considered.
 - scripts to compute the labels
+- a table with the updated annotated symobols in case the change.
 
 ## Note on the TextGrid files
 
@@ -44,7 +45,7 @@ Each TextGrid file contains 4 tiers:
 
 ## Note on the recordings
 
-Note that some of the recordings may be missing due to low quality or recording problems and that recordings may be noisy. Specially spkr15. 
+Note that some of the recordings may be missing due to low quality or recording problems and that recordings may be noisy. Specially spkr14. 
 Manual annotation was performed at phone level using ARPA-bet and an ARPA-bet like extension to account for allophonic variations and Spanish sounds. For more informations refer to the paper in this folder.
 
 ## License
